@@ -1,0 +1,105 @@
+.container {
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    color: black !important;
+    display: flex;
+    flex-direction: column;
+    height: 24em;
+    justify-content: space-between;
+    padding: 2em 0 0 0;
+    width: 100%;
+  }
+  
+  .title {
+    color: black !important;
+  }
+  
+  .allFeedbackLink {
+    color: black;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.2s;
+    width: 20em;
+  }
+  
+  .allFeedbackLink:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: 0.2s;
+  }
+  
+  .containerExtended {
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+    padding: 2em 0 0 0;
+    width: 100%;
+    color: black !important;
+  }
+  
+  .containerExtended .allFeedbackLink {
+    color: black;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.2s;
+    width: 20em;
+  }
+  
+  .containerExtended .allFeedbackLink:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: 0.2s;
+  }
+  
+  .containerContentFeedbackItens {
+    align-items: center;
+    color: black !important;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    margin-top: 1em;
+    overflow: hidden;
+    width: 80%;
+  }
+  
+  .containerContentButtonExtendDownArrow {
+    align-items: center;
+    background: rgb(24,24,24);
+    background: linear-gradient(0deg, rgba(24, 24, 24, 0.5) 0%, rgba(24, 24, 24, 0.2) 50%, rgba(24, 24, 24, 0) 100%);
+    bottom: 0%;
+    color: black !important;
+    display: flex;
+    font-size: 20px;
+    height: 3em;
+    justify-content: center;
+    position: relative;
+    transition: 0.2s;
+    width: 100%;
+  }
+  
+  .containerContentButtonExtendDownArrow:hover {
+    color: black !important;
+    cursor: pointer;
+    font-size: 22px;
+    transition: 0.2s;
+  }
+  
+  .containerContentButtonExtendDownArrowSpecific {
+    color: black !important;
+    position: relative;
+    width: 20px;
+  }
+  
+  .containerExtended .title {
+    color: black;
+  }
+  

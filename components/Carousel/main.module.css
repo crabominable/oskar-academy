@@ -1,0 +1,31 @@
+.carouselImage {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.arrowSlideshow {
+    align-items: center;
+    border-radius: 10px;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+    padding: 24px 30px;
+    z-index: 1;
+}
+
+.arrowSlideshow:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.2s;
+}
+
+.iconArrow {
+    width: 16px;
+}
+
+@media (max-width: 600px) {
+    .imageContainer {
+        height: 18em !important;
+        width: 18em !important;
+    }
+}

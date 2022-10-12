@@ -1,0 +1,45 @@
+.container {
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .containerImage {
+    border-radius: 4px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .containerImageMobile {
+    display: none;
+    border-radius: 4px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .image {
+    border-radius: 4px;
+  }
+  
+  .imageMobile {
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 800px) {
+    .containerImage {
+      display: none;
+      border-radius: 4px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  
+    .containerImageMobile {
+      display: block;
+      border-radius: 4px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }

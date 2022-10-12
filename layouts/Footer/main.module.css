@@ -1,0 +1,11 @@
+.container {
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    background-blend-mode: screen;
+    display: flex;
+    font-size: 16px;
+    font-weight: lighter;
+    height: 3em;
+    justify-content: center;
+    width: 100%;
+  }

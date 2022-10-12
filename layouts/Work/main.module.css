@@ -1,0 +1,23 @@
+.container {
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+    padding: 2em 0;
+    width: 100%;
+  }
+  
+  .content {
+    height: auto;
+    padding: 0 1em;
+    width: 90%;
+  }
+  
+  @media (max-width: 800px) {
+    .content {
+      padding: 0;
+      width: 100%;
+    }
+  }

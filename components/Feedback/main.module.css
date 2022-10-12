@@ -1,0 +1,35 @@
+.container {
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-bottom: 8px;
+  max-width: 46em;
+  padding: 1em;
+  width: 100%;
+}
+
+.text {
+  align-self: flex-start;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.textMessage {
+  align-self: flex-start;
+  color: black;
+}
+
+.image {
+  margin-right: 1em;
+  width: 20px !important;
+}
+
+.containerText {
+  width: 100%;
+  margin-left: 10px;
+}
